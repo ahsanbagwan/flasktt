@@ -1,0 +1,1 @@
+from .flasktt import app
