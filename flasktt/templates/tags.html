@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block body %}
+<div class=page>	
+  <ul class=entries>
+  {% for entry in entries %}
+    <li><h2>{{ entry.tag }}</h2>
+  {% else %}
+    <li><em>Unbelievable.  No tags here so far</em>
+  {% endfor %}
+  </ul>
+</div>  
+{% endblock %}
