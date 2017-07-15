@@ -8,7 +8,6 @@ from flask_bootstrap import Bootstrap
 
 app = Flask(__name__) # create the application instance :)
 app.config.from_object(__name__) # load config from this file , flaskr.py
-Bootstrap(app)
 
 # Load default config and override config from an environment variable
 app.config.update(dict(
