@@ -7,3 +7,9 @@ flasktt.egg-info/SOURCES.txt
 flasktt.egg-info/dependency_links.txt
 flasktt.egg-info/requires.txt
 flasktt.egg-info/top_level.txt
+flasktt/static/bootstrap.min.css
+flasktt/static/bootstrap.min.js
+flasktt/static/style.css
+flasktt/templates/layout.html
+flasktt/templates/show_entries.html
+flasktt/templates/tags.html
