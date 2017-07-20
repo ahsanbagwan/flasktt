@@ -12,9 +12,15 @@
 
 Install virtualenv. Follow instructions on the project page
 
+Initialize database by issuing following command:
+
+`flask initdb`
+
 `export FLASK_APP = flasktt`
+
 `export FLASK_DEBUG = true`
+
 `flask run`
 
 ## License
-MIT
+MIT 
